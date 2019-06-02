@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="133dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="149dp"
+        android:layout_height="153dp"
+        android:layout_gravity="center"
+        app:srcCompat="@mipmap/book_logo"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="302dp"
+        android:layout_height="81dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="310dp" />
+</LinearLayout>
